@@ -130,7 +130,7 @@ const Hero = () => {
           
           {/* Tech-Enhanced Stats */}
           <div className="flex flex-wrap justify-center gap-6 mb-12">
-            <div className="group glass px-6 py-4 rounded-xl border-primary/20 hover:border-primary/40 transition-all duration-300 relative overflow-hidden">
+            <div className="group px-6 py-4 rounded-xl border border-primary/20 hover:border-primary/40 transition-all duration-300 relative overflow-hidden bg-transparent">
               <div className="absolute top-2 right-2">
                 <Code2 className="w-3 h-3 text-primary/50 animate-pulse" />
               </div>
@@ -142,7 +142,7 @@ const Hero = () => {
               <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
             </div>
             
-            <div className="group glass px-6 py-4 rounded-xl border-secondary/20 hover:border-secondary/40 transition-all duration-300 relative overflow-hidden">
+            <div className="group px-6 py-4 rounded-xl border border-secondary/20 hover:border-secondary/40 transition-all duration-300 relative overflow-hidden bg-transparent">
               <div className="absolute top-2 right-2">
                 <Terminal className="w-3 h-3 text-secondary/50 animate-pulse" style={{ animationDelay: '0.5s' }} />
               </div>
@@ -154,7 +154,7 @@ const Hero = () => {
               <div className="absolute inset-0 bg-gradient-to-br from-secondary/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
             </div>
             
-            <div className="group glass px-6 py-4 rounded-xl border-primary-glow/20 hover:border-primary-glow/40 transition-all duration-300 relative overflow-hidden">
+            <div className="group px-6 py-4 rounded-xl border border-primary-glow/20 hover:border-primary-glow/40 transition-all duration-300 relative overflow-hidden bg-transparent">
               <div className="absolute top-2 right-2">
                 <Zap className="w-3 h-3 text-primary-glow/50 animate-pulse" style={{ animationDelay: '1s' }} />
               </div>
