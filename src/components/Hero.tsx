@@ -117,7 +117,7 @@ const Hero = () => {
           <div className="mb-8 space-y-4">
             <h1 className="text-6xl md:text-8xl font-bold font-heading mb-4 leading-tight">
               <span className="text-foreground">Hi, I'm </span>
-              <span className="bg-gradient-hero bg-clip-text text-transparent animate-glow">
+              <span className="bg-gradient-to-r from-primary via-secondary to-primary-glow bg-clip-text text-transparent animate-glow">
                 Nazeef
               </span>
             </h1>
